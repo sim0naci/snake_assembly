@@ -1,0 +1,40 @@
+
+	            G L O B A L   R E F E R E N C E S
+
+	             Name               Value        Type
+	==============================|=======|===============
+	CR                               000A         CONSTANT
+	FIM_TEXTO                        0040         CONSTANT
+	IO_READ                          FFFF         CONSTANT
+	IO_WRITE                         FFFE         CONSTANT
+	IO_STATUS                        FFFD         CONSTANT
+	INITIAL_SP                       FDFF         CONSTANT
+	CURSOR                           FFFC         CONSTANT
+	CURSOR_INIT                      FFFF         CONSTANT
+	ROW_POSITION                     0000         CONSTANT
+	COL_POSITION                     0000         CONSTANT
+	ROW_SHIFT                        0008         CONSTANT
+	COLUMN_SHIFT                     0008         CONSTANT
+	parede                           8000           STRING
+	teste_str                        8002           STRING
+	varivel                          800F         VARIABLE
+	print_text                       8010         VARIABLE
+	text_index                       8011         VARIABLE
+	column_index                     8012         VARIABLE
+	Printlinha                       0002            LABEL
+	printflooplinha                  0009            LABEL
+	printfEndLooplinha               001F            LABEL
+	Printwall                        0029            LABEL
+	printfloopwall                   0030            LABEL
+	printfEndLoopwall                0044            LABEL
+	spawn_snake                      004E            LABEL
+	printfsnake                      0058            LABEL
+	printfEndsnake                   006C            LABEL
+	mov_cima                         0076            LABEL
+	looping_cima                     007C            LABEL
+	EndLoop_cima                     0086            LABEL
+	Main                             008D            LABEL
+	Cycle                            00BB            LABEL
+	Halt                             00BC            LABEL
+	funcao                           00BD            LABEL
+	interrupcao                      00C4            LABEL
